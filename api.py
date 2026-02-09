@@ -10,7 +10,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 HOST = os.getenv("HOST", "localhost")
-PORT = int(os.getenv("PORT", "3334"))
+PORT = int(os.getenv("PORT", "21053"))
 MCP_TOKEN = os.getenv("MCP_TOKEN", "")
 
 NWS_API_BASE = "https://api.weather.gov"
