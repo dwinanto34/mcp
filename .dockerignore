@@ -1,0 +1,19 @@
+# Virtual environment is platform-specific; rebuild in container
+.venv/
+
+# Git and IDE
+.git/
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Local / env
+.env
+.env.*
+*.local
